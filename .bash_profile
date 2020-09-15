@@ -1,0 +1,5 @@
+alias ozc='/Applications/Mozart2.app/Contents/Resources/bin/ozc'
+alias ozemulator='/Applications/Mozart2.app/Contents/Resources/bin/ozemulator'
+alias ozem='/Applications/Mozart2.app/Contents/Resources/bin/ozemulator'
+alias ozengine='/Applications/Mozart2.app/Contents/Resources/bin/ozengine'
+alias ozwish='/Applications/Mozart2.app/Contents/Resources/bin/ozwish'

@@ -1,0 +1,4 @@
+Task 3A
+Simply created two variables Y and Z, and gave them values 300 and 30 repectively. Then assigned variable X to Y * Z
+
+Task 3B

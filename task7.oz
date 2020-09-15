@@ -52,6 +52,40 @@ define
     {System.showInfo "Her er Count større enn list: "}
     {System.show {Drop [1 2 3 4] 5}}
 
+    fun{Append List1 List2}
+        if List1 == nil then
+            List2
+        else
+            List1.1|{Append List1.2 List2}
+        end
+    end
+    {System.showInfo "Slår sammen lista [1 2 4] og [3 4 8 9]"}
+    {System.show {Append [1 2 4] [3 4 8 9]}}
 
+    fun{Member List Element}
+        case List of H|T then
+            if H == Element then
+                true
+            else
+                {Member T Element}
+            end
+        else
+            false
+        end
+    end
+    {System.show{Member [1 2 3] 3}}
+    {System.show{Member [1 2 3] 4}}
+
+    fun{Position List Element}
+        case List of H|T then
+            if H == Element then
+                1
+            else
+                {Position T Element} + 1
+            end
+        end
+    end
+
+    {System.show{Position [1 2 3 3 4] 4}}
     {Exit 0}
 end

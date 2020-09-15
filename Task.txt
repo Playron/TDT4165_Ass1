@@ -2,3 +2,6 @@ Task 3A
 Simply created two variables Y and Z, and gave them values 300 and 30 repectively. Then assigned variable X to Y * Z
 
 Task 3B
+The OZ programming language is a multiparadigm programming language. Some of the most important paradigms the languege inherit is Lazy evaluation and concurrent programming. 
+Since the concurrency is declarative, when a program encounters a unbound variable, it waits for its value. in our case
+the thread will wait until both X and Y are bound before showing the value of Y. 
